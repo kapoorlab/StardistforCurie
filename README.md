@@ -6,13 +6,18 @@ This package requires python3.5, so to enable Jupyter notebbok a selection betwe
 
 
 conda create -n tensorflowpy3pt5 pip python=3.5
-pip install --ignore-installed --upgrade (find the gpu supported python3.5 whl for kepler cluster )
+
+pip install --ignore-installed --upgrade
+(find the gpu supported python3.5 whl for kepler cluster )
+
 conda install nb_conda
+
 source activate tensorflowpy3pt5
 
-After these commqnds the usual tensorflow import commands will run fine such as
+After these commands the usual tensorflow import commands will run fine such as
 
 import tensorflow as tf
+
 import stardist as st
 
 etc
