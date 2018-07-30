@@ -2,7 +2,7 @@
 
 For overlapping cell segmentation using convex polygon approach developed by CSB Dresden for data generated at Institut Curie
 
-[ORIGINAL CODE:](https://github.com/mpicbg-csbd/stardist)
+[ORIGINAL CODE](https://github.com/mpicbg-csbd/stardist)
 
 This package requires python3.5, so to enable Jupyter notebbok a selection between python 2 or 3.5 you have to do:
 
